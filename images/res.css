@@ -1,0 +1,176 @@
+@media only screen and (max-width: 576px) {
+    .navbar-nav{
+        margin-left:0px;
+        text-align: right;
+        
+        
+    }
+	
+    nav{
+        background-color: black!important;
+    }
+    .d-flex {
+        margin-left: 59%;
+        margin-top: 12px;
+        margin-bottom: 5px;
+    }
+   form.search-bar{
+   text-align: center;
+   margin-top: 15%;
+   }
+   form.search-bar input{
+    text-align: center;
+   }
+   form.search-bar button{
+    padding:5% 5%;
+    border-radius: 50%;
+    outline: none;
+    border:none;
+    
+}
+.search-btn{
+    margin: auto;
+    margin-left: 65px;
+}
+.section-header1 {
+	font-size: 29px;
+	font-weight: 500;
+	margin: 50px 111px 20px;
+	color: #333;
+}
+.images {
+	display: grid;
+	grid-template-columns: repeat(1,1fr);
+	gap: 30px;
+	justify-items: center;
+	
+}
+.images2 {
+	display: grid;
+	grid-template-columns: repeat(1,1fr);
+	gap: 30px;
+	justify-items: center;
+}
+.images div span {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+	color: white;
+}
+.images2 div span {
+	position: absolute;
+	top: 50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+	color: white;
+}
+
+
+
+/*sharing*/
+
+.eta-title {
+	color: white;
+	font-size: 43px;
+	font-weight: 600;
+	line-height: 63px;
+}
+.eta p{
+    color:white;
+    margin-bottom: 3%;
+    
+}
+a.share-btn{
+    text-decoration: none;
+    color:white;
+    padding:1% 2%;
+    background-color: #fe3a43;
+    margin-top:5%;
+    border-radius: 5px;
+}
+.stories {
+	display: grid;
+	grid-template-columns: auto;
+	gap: 22px;
+	margin-bottom: 5%;
+	
+	text-align: center;
+}
+
+.about-title {
+	padding: 7.2% 0;
+	font-size: 28px;
+	font-weight: bold;
+	color: #333;
+}
+.about p {
+	font-size: 10px;
+	color: #999;
+	text-align: justify;
+}
+  }
+
+@media screen and (min-width:577px) and (max-width:992px) {
+	
+	.navbar-nav{
+		margin-left:30px;
+	}
+	.d-flex{
+		justify-content: space-between;
+	}
+	.Logo{
+		width:120px;
+	}
+	.section-header1 {
+		font-size: 29px;
+		
+	}
+	.images {
+		display: grid;
+		grid-template-columns: repeat(2,1fr);
+		gap: 30px;
+		justify-items: center;
+		
+	}
+	.images2 {
+		display: grid;
+		grid-template-columns: repeat(2,1fr);
+		gap: 30px;
+		justify-items: center;
+	}
+	.eta-title {
+		color: white;
+		font-size: 43px;
+		font-weight: 600;
+		line-height: 63px;
+	}
+	.stories {
+		display: grid;
+		grid-template-columns: auto;
+		gap: 22px;
+		margin-bottom: 5%;
+		
+		text-align: center;
+	}
+	.eta p{
+		color:white;
+		margin-bottom: 1%;
+		
+	}
+	.about-title {
+	
+		font-size: 28px;
+		
+	}
+	.about p {
+		font-size: 16px;
+	
+		text-align: justify;
+	}
+	.stories div p{
+  
+    font-size: 40px;}
+}
